@@ -1,0 +1,28 @@
+body{
+    margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
+}
+
+#main-header{
+    /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
+    background-repeat: repeat-y;*/
+    background-color: lightskyblue; /*bare midlertidig, usikker på om det skal være noe?*/
+}
+
+/*Kommentar i CSS*/
+.container{
+    width: 85%;
+    margin: auto; /*Får alt inne i "container" i midten*/
+    overflow: hidden;
+}
+.container p{
+    margin-top: 1px;
+}
+.container h2{
+    margin-bottom: 2px;
+}
+.container img{
+    float: right;
+    width: 300px;
+    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
+    padding-left: 10px;
+}
