@@ -1,11 +1,14 @@
 body{
     margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif; /*Skrift funnet https://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage*/
+    font-size: 18px;
+    line-height: 25px;
 }
 
 #main-header{
     /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
     background-repeat: repeat-y;*/
-    background-color: lightskyblue; /*bare midlertidig, usikker på om det skal være noe?*/
+    background-color: lightgreen; /*bare midlertidig, usikker på om det skal være noe?*/
 }
 
 /*Kommentar i CSS*/
