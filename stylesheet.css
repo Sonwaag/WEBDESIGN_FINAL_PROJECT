@@ -1,14 +1,15 @@
 body{
     margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif; /*Skrift funnet https://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage*/
-    font-size: 18px;
-    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
+    font-size: 20px;
+    line-height: 28px;
 }
 
 #main-header{
     /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
     background-repeat: repeat-y;*/
     background-color: lightgreen; /*bare midlertidig, usikker på om det skal være noe?*/
+    line-height: 36px;
 }
 
 /*Kommentar i CSS*/
@@ -18,7 +19,7 @@ body{
     overflow: hidden;
 }
 .container p{
-    margin-top: 1px;
+    margin-top: 4px;
 }
 .container h2{
     margin-bottom: 2px;
