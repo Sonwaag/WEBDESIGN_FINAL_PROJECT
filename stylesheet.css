@@ -2,7 +2,7 @@
 body{
     margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
     font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
-    font-size: 20px;
+    font-size: 23px;
     line-height: 28px;
 }
 
@@ -133,8 +133,9 @@ body{
 }
 
 /*Kommentar i CSS*/
+/*"Container" som wrapper rundt all teksten*/
 .container{
-    width: 85%;
+    width: 90%;
     margin: auto; /*Får alt inne i "container" i midten*/
     overflow: hidden;
 }
@@ -143,10 +144,21 @@ body{
 }
 .container h2{
     margin-bottom: 2px;
+    line-height: 30px;
 }
 .container img{
     float: right;
     width: 300px;
     border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
     padding-left: 10px;
+}
+
+/*Gjelder generelt for alle hyperkoblinger/ linker*/
+a{
+    color: darkblue;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: purple;
 }
