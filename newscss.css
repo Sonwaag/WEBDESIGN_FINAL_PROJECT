@@ -19,7 +19,7 @@
 
 }
 .header1{
-    width: 30%;
+    width: 40%;
     display: inline-block;
     height: 100%;
 }
@@ -30,15 +30,16 @@
     align-items: center;
     justify-content: left;
 }
-.logoholder img{
-    height: 80%;
-    display: inline-block;
+.logoholder a{
     margin-left: 50px;
-    
+}
+ #logo{
+    height: 80px;
+    display: inline-block;
 
 }
 .header2{
-    width: 70%;
+    width: 60%;
     display: inline-block;
     height: 100%;
 }
@@ -130,10 +131,12 @@
 #submit:hover{
     color: #6caaf0;
     background-color: #171920;
+    cursor: pointer;
 }
 footer{
     display: flex;
     justify-content: center;
+    display: none;
 }
 .footercontent1{
     width: 96vw;
