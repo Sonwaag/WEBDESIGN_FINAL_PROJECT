@@ -84,8 +84,15 @@ body{
     width: 80%;
 }
 
+#ourwork-gruppebilde {
+    width: 50%;
+    margin: 5% 25% 0% 25%;
+    height: 600px;
+    object-fit: cover;
+}
+
 .ourworkparagraph {
-    margin: 8% 25%;
+    margin: 3% 25% 8% 25%;
 }
 
 .ourworkparagraph p {
@@ -137,16 +144,4 @@ body{
     width: 90%;
     height: 500px;
     object-fit: cover;
-}
-
-#oursupport-text {
-    width: 40%;
-    margin: 25% 5% 0% 5%;
-    float: left;
-}
-
-#oursupport-image {
-    width: 40%;
-    margin: 15% 5% 0% 5%;
-    float: right;
 }
