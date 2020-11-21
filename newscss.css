@@ -98,13 +98,13 @@
     text-align: center;
     margin-top: 50px;
     /*box-shadow: 8px 5px #383838;*/
-    background-image: url(images/text1.png);
+    background-image: url(images/text2.png);
     background-size: 95vw 600px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .form h2{
-    margin-top: 60px;
+    margin-top: 80px;
     color: white;
 }
 .form label{
@@ -124,7 +124,7 @@
 #submit{
     height: 60px;
     width: 200px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     color: #f3f3f3;
     background-color: #252833;
     border: none;
