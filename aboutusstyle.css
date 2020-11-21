@@ -82,7 +82,20 @@ body{
 }
 .linkholder a:hover #linkbox{
     width: 80%;
+}
 
+.ourworkparagraph {
+    margin: 8% 25%;
+}
+
+.ourworkparagraph p {
+    line-height: 180%;
+}
+
+#title-ouremployers {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
 }
 
 .employer-top-1 {
