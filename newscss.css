@@ -92,6 +92,7 @@
 .form{
     width: 60vw;
     background-color: #252833;
+    background-image: url(images/text.png);
     border-radius: 10px;
     text-align: center;
     margin-top: 50px;
@@ -148,4 +149,8 @@ footer{
     border-radius: 30px;
     background: linear-gradient(to left, #0B0C10, #252833);
     margin-bottom: 20px;
+}
+.formtest{
+    background-image: url(images/text.png);
+    width: 80vw;
 }
