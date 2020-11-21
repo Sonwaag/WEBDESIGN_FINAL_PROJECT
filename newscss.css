@@ -92,19 +92,19 @@
     align-items: center;
 }
 .form{
-    width: 80vw;
+    width: 90vw;
     /*background-color: #252833;*/
     border-radius: 10px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
     /*box-shadow: 8px 5px #383838;*/
-    background-image: url(images/text.png);
-    background-size: cover;
+    background-image: url(images/text1.png);
+    background-size: 95vw 600px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .form h2{
-    margin-top: 35px;
+    margin-top: 60px;
     color: white;
 }
 .form label{
@@ -124,7 +124,7 @@
 #submit{
     height: 60px;
     width: 200px;
-    margin-bottom: 35px;
+    margin-bottom: 60px;
     color: #f3f3f3;
     background-color: #252833;
     border: none;
@@ -155,13 +155,7 @@ footer{
     margin-bottom: 20px;
   
 }
-.formtest{
-    
-    width: 80vw;
-    height: 80vh;
-    background-size: contain;
-    
-}
+
 @media screen and (max-width: 880px){
     #logo{
         display: none;
