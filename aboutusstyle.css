@@ -84,3 +84,44 @@ body{
     width: 80%;
 
 }
+
+.employer-top-1 {
+    width: 20%;
+    float: left;
+    margin: 1% 1% 1% 29%;
+}
+
+.employer-top-2 {
+    width: 20%;
+    float: left;
+    margin: 1% 29% 1% 1%;
+}
+
+.employer-image-top {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.employer-down-1 {
+    width: 20%;
+    float: left;
+    margin: 1% 1% 1% 18%;
+}
+
+.employer-down-2 {
+    width: 20%;
+    float: left;
+    margin: 1% 1% 1% 1%;
+}
+.employer-down-3 {
+    width: 20%;
+    float: left;
+    margin: 1% 18% 1% 1%;
+}
+
+.employer-image-down {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+}
