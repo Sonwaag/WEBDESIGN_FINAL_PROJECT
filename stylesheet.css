@@ -1,4 +1,5 @@
 
+
 body{
     margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
     font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
@@ -11,10 +12,7 @@ body{
     justify-content: center;
 }
 .headercontainer{
-    /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
-    background-repeat: repeat-y;*/
     border-radius: 30px;
-    /*border: solid black 2px;*/
     width: 96vw;
     margin-top: 20px;
     height: 100px;
@@ -37,9 +35,12 @@ body{
 .logoholder a{
     margin-left: 50px;
 }
-#logo{
+#logo, #logo1{
     height: 80px;
     display: inline-block;
+}
+#logo1{
+    display: none;
 }
 .header2{
     width: 60%;
@@ -68,6 +69,9 @@ body{
     justify-content: center;
     margin-right: 20px;
     margin-left: 20px;
+}
+.linkholder2{
+    display: none;
 }
 #linkbox{
    width: 0%;
@@ -161,4 +165,56 @@ a{
 a:hover{
     color: purple;
     text-decoration: purple;
+}
+@media screen and (max-width: 880px){
+    #logo{
+        display: none;
+    }
+    #logo1{
+        display: inline-block;
+        height: 60px;
+    }
+    .header1{
+        width: 20%;
+    }
+    .header2{
+        width: 80%;
+    }
+    .logoholder a{
+        margin-left: 15px;
+    }
+    .headercontainer{
+        margin-top: 5px;
+    }
+    .linkholder{
+        display: none;
+    }
+    .linkholder2{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    #pixelimg{
+        height: 48px;
+        width: 48px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        width: 100%;
+    }
+    .linkholder2{
+        justify-content: space-around;
+    }
+    .headercontainer{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+    }
 }

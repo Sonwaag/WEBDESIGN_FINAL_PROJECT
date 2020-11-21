@@ -7,10 +7,7 @@
     justify-content: center;
 }
 .headercontainer{
-    /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
-    background-repeat: repeat-y;*/
     border-radius: 30px;
-    /*border: solid black 2px;*/
     width: 96vw;
     margin-top: 20px;
     height: 100px;
@@ -33,10 +30,12 @@
 .logoholder a{
     margin-left: 50px;
 }
- #logo{
+#logo, #logo1{
     height: 80px;
     display: inline-block;
-
+}
+#logo1{
+    display: none;
 }
 .header2{
     width: 60%;
@@ -66,6 +65,9 @@
     margin-right: 20px;
     margin-left: 20px;
 }
+.linkholder2{
+    display: none;
+}
 #linkbox{
    width: 0%;
    height: 7%;
@@ -90,14 +92,16 @@
     align-items: center;
 }
 .form{
-    width: 60vw;
-    background-color: #252833;
-    background-image: url(images/text.png);
+    width: 80vw;
+    /*background-color: #252833;*/
     border-radius: 10px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 8px 5px #383838;
+    /*box-shadow: 8px 5px #383838;*/
+    background-image: url(images/text.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .form h2{
     margin-top: 35px;
@@ -149,8 +153,64 @@ footer{
     border-radius: 30px;
     background: linear-gradient(to left, #0B0C10, #252833);
     margin-bottom: 20px;
+  
 }
 .formtest{
-    background-image: url(images/text.png);
+    
     width: 80vw;
+    height: 80vh;
+    background-size: contain;
+    
+}
+@media screen and (max-width: 880px){
+    #logo{
+        display: none;
+    }
+    #logo1{
+        display: inline-block;
+        height: 60px;
+    }
+    .header1{
+        width: 20%;
+    }
+    .header2{
+        width: 80%;
+    }
+    .logoholder a{
+        margin-left: 15px;
+    }
+    .headercontainer{
+        margin-top: 5px;
+    }
+    .linkholder{
+        display: none;
+    }
+    .linkholder2{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    #pixelimg{
+        height: 48px;
+        width: 48px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        width: 100%;
+    }
+    .linkholder2{
+        justify-content: space-around;
+    }
+    .headercontainer{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+    }
 }
