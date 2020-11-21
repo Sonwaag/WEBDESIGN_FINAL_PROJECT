@@ -92,14 +92,14 @@
     align-items: center;
 }
 .form{
-    width: 90vw;
+    width: 100vw;
     /*background-color: #252833;*/
     border-radius: 10px;
     text-align: center;
     margin-top: 50px;
     /*box-shadow: 8px 5px #383838;*/
     background-image: url(images/text2.png);
-    background-size: 95vw 600px;
+    background-size: 100vw 500px;
     background-repeat: no-repeat;
     background-position: center;
 }
