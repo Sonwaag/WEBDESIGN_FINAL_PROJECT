@@ -138,3 +138,15 @@ body{
     height: 500px;
     object-fit: cover;
 }
+
+#oursupport-text {
+    width: 40%;
+    margin: 25% 5% 0% 5%;
+    float: left;
+}
+
+#oursupport-image {
+    width: 40%;
+    margin: 15% 5% 0% 5%;
+    float: right;
+}
