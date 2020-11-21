@@ -75,6 +75,9 @@
    background: linear-gradient(to left, #66FCF1, #66abfa);
    bottom: 12%;
    border-radius: 5px;
+   -webkit-transition: .4s all ease-in-out;
+   -moz-transition: .4s all ease-in-out;
+   -o-transition: .4s all ease-in-out;
    transition: .4s all ease-in-out;
    left: 10%;
    
@@ -92,19 +95,16 @@
     align-items: center;
 }
 .form{
-    width: 100vw;
-    /*background-color: #252833;*/
+    width: 60vw;
+    background-color: #252833;
     border-radius: 10px;
     text-align: center;
     margin-top: 50px;
-    /*box-shadow: 8px 5px #383838;*/
-    background-image: url(images/text2.png);
-    background-size: 100vw 500px;
-    background-repeat: no-repeat;
-    background-position: center;
+   /* box-shadow: 8px 5px #383838;*/
+    box-shadow: 0 0 30px black;
 }
 .form h2{
-    margin-top: 80px;
+    margin-top: 50px;
     color: white;
 }
 .form label{
@@ -124,7 +124,8 @@
 #submit{
     height: 60px;
     width: 200px;
-    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     color: #f3f3f3;
     background-color: #252833;
     border: none;
@@ -133,8 +134,11 @@
     border: solid #6caaf0 2.5px; 
     border-radius: 6px;
     position: relative;
-    transition: all .6s ease-in-out;
-    box-shadow: 0 0 5px black;
+    -webkit-transition: color .6s ease-in-out,  background-color .6s ease-in-out;
+    -moz-transition: color .6s ease-in-out,  background-color .6s ease-in-out;
+    -o-transition: color .6s ease-in-out,  background-color .6s ease-in-out;
+    transition: color .6s ease-in-out,  background-color .6s ease-in-out;
+    box-shadow: 0 0 5px #6caaf0;
 }
 #submit:hover{
     color: #6caaf0;
@@ -189,6 +193,9 @@ footer{
     #pixelimg{
         padding: 10px;
     }
+    .form{
+        width: 80vw;
+    }
     
     
 }
@@ -211,5 +218,15 @@ footer{
         margin-top: 0;
         width: 100vw;
         border-radius: 0;
+    }
+    .form{
+        width: 100vw;
+    }
+    #name, #mail{
+        width: 90vw;
+        font-size: 15px;
+    }
+    #submit{
+        width: 80vw;
     }
 }

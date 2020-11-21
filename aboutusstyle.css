@@ -81,6 +81,9 @@ body{
    background: linear-gradient(to left, #66FCF1, #66abfa);
    bottom: 12%;
    border-radius: 5px;
+   -webkit-transition: .4s all ease-in-out;
+   -moz-transition: .4s all ease-in-out;
+   -o-transition: .4s all ease-in-out;
    transition: .4s all ease-in-out;
    left: 10%;
    
