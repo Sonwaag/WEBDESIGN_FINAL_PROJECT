@@ -1,0 +1,164 @@
+
+body{
+    margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
+    font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
+    font-size: 23px;
+    line-height: 28px;
+}
+
+#main-header{
+    display: flex;
+    justify-content: center;
+}
+.headercontainer{
+    /*background-image: url("https://d1ngglk168riv7.cloudfront.net/n/wp-content/uploads/2019/11/19152814/Climate-change-cropped.jpg");
+    background-repeat: repeat-y;*/
+    border-radius: 30px;
+    /*border: solid black 2px;*/
+    width: 96vw;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    background: linear-gradient(to left, #0B0C10, #252833);
+
+}
+.header1{
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+}
+.logoholder{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.logoholder a{
+    margin-left: 50px;
+}
+#logo{
+    height: 80px;
+    display: inline-block;
+}
+.header2{
+    width: 60%;
+    display: inline-block;
+    height: 100%;
+}
+.linkholder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.linkholder a{
+    text-decoration: none !important;
+    text-align: center;
+    color: #f3f3f3 !important;
+    border: solid #6caaf0 2.5px; 
+    border-radius: 6px;
+    height: 55px;
+    line-height: 55px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#linkbox{
+   width: 0%;
+   height: 7%;
+   position: absolute;
+   background: linear-gradient(to left, #66FCF1, #66abfa);
+   bottom: 12%;
+   border-radius: 5px;
+   transition: .4s all ease-in-out;
+   left: 10%;
+   
+
+}
+.linkholder a:hover #linkbox{
+    width: 80%;
+
+}
+#contenttype1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contentbox1{
+    width: 70%;
+    height: 80%;
+    /*border: solid black 2px;*/
+    border-radius: 50px;
+}
+#contenttype2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contentbox2{
+    width: 40%;
+    height: 80%;
+    /*border: solid black 2px;*/
+    border-radius: 50px;
+}
+#contentbox3{
+    width: 95%;
+    height: 90%;
+    border: solid black 2px;
+    border-radius: 50px;
+    
+}
+.content1box{
+    background: linear-gradient(to right, #8860D0, #beace0);
+    
+}
+.content2box1{
+    background: linear-gradient(to left, #66FCF1, #66abfa);
+}
+.content2box2{
+    background: linear-gradient(to left, #66FCF1, #66abfa);
+}
+.content3box{
+    background: linear-gradient(to right, #424eff, #66abfa);
+}
+
+/*Kommentar i CSS*/
+/*"Container" som wrapper rundt all teksten*/
+.container{
+    width: 90%;
+    margin: auto; /*Får alt inne i "container" i midten*/
+    overflow: hidden;
+}
+.container p{
+    margin-top: 4px;
+}
+.container h2{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.container img{
+    float: right;
+    width: 300px;
+    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
+    padding-left: 10px;
+}
+
+/*Gjelder generelt for alle hyperkoblinger/ linker*/
+a{
+    color: darkblue;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: purple;
+}
