@@ -148,8 +148,13 @@ body{
 }
 .container p{
     margin-top: 4px;
+    margin-bottom: 3px;
 }
 .container h2{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.container h3{
     margin-bottom: 2px;
     line-height: 30px;
 }
@@ -159,6 +164,27 @@ body{
     border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
     padding-left: 10px;
 }
+/*START*/
+.content1box p{
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.content1box h2{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content1box h3{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content1box img{
+    float: right;
+    width: 300px;
+    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
+    padding-left: 10px;
+}
+/*SLUTT*/
+
 
 /*Gjelder generelt for alle hyperkoblinger/ linker*/
 a{
