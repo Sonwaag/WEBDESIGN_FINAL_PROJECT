@@ -99,10 +99,10 @@ body{
 }
 .topping{
     background-image: url(images/top.png);
-    background-size: 96vw 230px;
+    background-size: 1512px 230px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 96vw;
     height: 229px;
 }
 #contenttype1{
@@ -395,6 +395,9 @@ a:hover{
     #contentbox1 p, #contentbox3 p{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .toppingholder{
+        display: none;
     }
 }
 @media screen and (max-width: 240px){
