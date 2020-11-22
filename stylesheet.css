@@ -198,6 +198,45 @@ body{
     border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
     padding-left: 10px;
 }
+
+.content2box1 p{
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.content2box1 h2{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content2box1 h3{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content2box1 img{
+    float: right;
+    width: 300px;
+    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
+    padding-left: 10px;
+}
+
+.content3box p{
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.content3box h2{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content3box h3{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.content3box img {
+    float: right;
+    width: 300px;
+    border-radius: 10px;
+}/*Avrunder kantene på bilder, trengs kanskje ikke?*/
+paddin
+/*SLUTT*/
 .bottomholder{
     display: flex;
     justify-content: center;
@@ -255,7 +294,6 @@ footer{
     height: 48px;
     width: 48px;
 }
-/*SLUTT*/
 
 
 /*Gjelder generelt for alle hyperkoblinger/ linker*/
