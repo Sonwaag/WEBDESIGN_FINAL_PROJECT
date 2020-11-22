@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 .headercontainer{
-    border-radius: 30px;
+    border-radius: 20px;
     width: 96vw;
     margin-top: 20px;
     height: 100px;
@@ -108,138 +108,54 @@ body{
 }
 #contenttype1{
     width: 100%;
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #contentbox1{
     width: 70%;
-    height: 80%;
-    /*border: solid black 2px;*/
-    border-radius: 50px;
-    font-size: 23px;
-    line-height: 28px;
-}
-#contenttype2{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-#contentbox2{
-    width: 40%;
-    height: 80%;
-    /*border: solid black 2px;*/
-    border-radius: 50px;
-    font-size: 23px;
-    line-height: 28px;
+    height: auto;
 }
 #contentbox3{
-    width: 95%;
-    height: 90%;
-    border: solid black 2px;
-    border-radius: 50px;
-    font-size: 23px;
-    line-height: 28px;
-    
-}
-.content1box{
-    background: linear-gradient(to right, #8860D0, #beace0);
-    
-}
-.content2box1{
-    background: linear-gradient(to left, #66FCF1, #66abfa);
-}
-.content2box2{
-    background: linear-gradient(to left, #66FCF1, #66abfa);
-}
-.content3box{
-    background: linear-gradient(to right, #424eff, #66abfa);
-}
-
-/*Kommentar i CSS*/
-/*"Container" som wrapper rundt all teksten*/
-.container{
     width: 90%;
-    margin: auto; /*Får alt inne i "container" i midten*/
-    overflow: hidden;
+    height: auto;
 }
-.container p{
-    margin-top: 4px;
-    margin-bottom: 3px;
+#contentbox1, #contentbox3{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #252833;
+    color: #f3f3f3;
+    box-shadow: 0 0 15px black;
+    margin-top: 100px;
+    text-align: center;
 }
-.container h2{
-    margin-bottom: 2px;
+#contentbox1 h2, #contentbox3 h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+#contentbox1 p, #contentbox3 p{
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     line-height: 30px;
 }
-.container h3{
-    margin-bottom: 2px;
-    line-height: 30px;
+#contentbox1 a, #contentbox3 a{
+    color: #6caaf0;
+    text-decoration: none;
 }
-.container img{
-    float: right;
-    width: 300px;
-    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
-    padding-left: 10px;
-}
-/*START*/
-.content1box p{
-    margin-top: 4px;
-    margin-bottom: 3px;
-}
-.content1box h2{
-    margin-bottom: 2px;
-    line-height: 30px;
-}
-.content1box h3{
-    margin-bottom: 2px;
-    line-height: 30px;
-}
-.content1box img{
-    float: right;
-    width: 300px;
-    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
-    padding-left: 10px;
-}
-
-.content2box1 p{
-    margin-top: 4px;
-    margin-bottom: 3px;
-}
-.content2box1 h2{
-    margin-bottom: 2px;
-    line-height: 30px;
-}
-.content2box1 h3{
-    margin-bottom: 2px;
-    line-height: 30px;
+#contentbox1 a:hover, #contentbox3 a:hover{
+    border-bottom: solid 2px #6caaf0;
 }
 .content2box1 img{
-    float: right;
-    width: 300px;
-    border-radius: 10px; /*Avrunder kantene på bilder, trengs kanskje ikke?*/
-    padding-left: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
 }
-
-.content3box p{
-    margin-top: 4px;
-    margin-bottom: 3px;
-}
-.content3box h2{
-    margin-bottom: 2px;
-    line-height: 30px;
-}
-.content3box h3{
-    margin-bottom: 2px;
-    line-height: 30px;
-}
-.content3box img {
-    float: right;
-    width: 300px;
-    border-radius: 10px;
-}/*Avrunder kantene på bilder, trengs kanskje ikke?*/
 
 /*SLUTT*/
 .bottomholder{
@@ -252,6 +168,7 @@ body{
     background-size: 96vw 230px;
     height: 229px;
     width: 96vw;
+    margin-top: 80px;
 }
 footer{
     display: flex;
@@ -267,8 +184,7 @@ footer{
 }
 .footercontent1{
     height: 100%;
-    width: 50%;
-    color: #f3f3f3;
+    width: 35%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -276,11 +192,22 @@ footer{
 }
 .footercontent2{
     height: 100%;
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: relative;
+}
+.footercontent3{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footercontent3 h1{
+    font-size: 12px;
+    color: #f3f3f3;
 }
 #show{
     color: #252833;
@@ -304,7 +231,7 @@ footer{
     -o-transition: color .15s ease-in-out, transform .3s ease-in-out;
     font-size: 20px;
 }
-.footercontent1 a{
+#footerlink11{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +244,7 @@ footer{
     z-index: 2;
     background-color: #252833;
 }
-.footercontent2 a{
+#footerlink12{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,17 +257,20 @@ footer{
     z-index: 2;
     background-color: #252833;
 }
-.footercontent1 a:hover + #show1{
+#footerlink11:hover + #show1{
     color: #f3f3f3;
     transform: translateX(90px);
 }
-.footercontent2 a:hover + #show{
+#footerlink12:hover + #show{
     color: #f3f3f3;
     transform: translateX(-90px);
 }
 .footercontent2 img, .footercontent1 img{
     height: 48px;
     width: 48px;
+}
+#footerlink21, #footerlink22{
+    display: none;
 }
 
 
@@ -386,6 +316,38 @@ a:hover{
     #pixelimg{
         padding: 10px;
     }
+    .bottomholder{
+        display: none;
+    }
+    .footercontainer{
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    #footerlink11, #footerlink12, #show, #show1{
+        display: none;
+    }
+    #footerlink21, #footerlink22{
+        display: inline-block;
+        font-size: 20px;
+        color: #f3f3f3;
+        text-align: center;
+    }
+    #footerlink21{
+        margin-left: 20px;
+    }
+    #footerlink22{
+        margin-right: 20px;
+    }
+    .footercontent1, .footercontent2{
+        width: 20%;
+    }
+    .footercontent3{
+        width: 60%;
+    }
+    #contentbox1, #contentbox3{
+        width: 90vw;
+        margin-top: 40px;
+    }
     
 }
 @media screen and (max-width: 420px){
@@ -412,5 +374,39 @@ a:hover{
         border-radius: 0;
         margin-top: 0;
         width: 100vw;
+    }
+    #footerlink21, #footerlink22{
+        font-size: 14px;
+    }
+    .footercontent3 h1{
+        font-size: 8px;
+        text-align: center;
+    }
+    .footercontainer{
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    #contentbox1, #contentbox3{
+        margin-top: 20px;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    #contentbox1 p, #contentbox3 p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 240px){
+    #contentbox1 h2, #contentbox3 h2{
+        font-size: 17px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    #contentbox1 p, #contentbox3 p{
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
