@@ -203,7 +203,7 @@ body{
     justify-content: center;
 }
 .bottom{
-    background-image: url(images/bottom.png);
+    background-image: url(images/bottom2.png);
     background-repeat: no-repeat;
     background-size: 96vw 230px;
     height: 230px;
@@ -219,6 +219,41 @@ footer{
     background-color: #252833;
     margin-bottom: 20px;
     border-radius: 0 0 20px 20px;
+    display: flex;
+}
+.footercontent1{
+    height: 100%;
+    width: 50%;
+}
+.footercontent2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footercontent2 h5{
+    color: #f3f3f3;
+    margin-right: 10px;
+    
+    
+}
+.footercontent2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+    border: solid 2px #6caaf0;
+    border-radius: 40px;
+}
+.footercontent2 a:hover .footercontent2 h5{
+    display: inline-block;
+}
+.footercontent2 img{
+    height: 48px;
+    width: 48px;
 }
 /*SLUTT*/
 
