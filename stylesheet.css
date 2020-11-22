@@ -1,10 +1,9 @@
 
 
 body{
+    font-size: 0;
     margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
     font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
-    font-size: 23px;
-    line-height: 28px;
 }
 
 #main-header{
@@ -119,6 +118,8 @@ body{
     height: 80%;
     /*border: solid black 2px;*/
     border-radius: 50px;
+    font-size: 23px;
+    line-height: 28px;
 }
 #contenttype2{
     width: 100%;
@@ -132,12 +133,16 @@ body{
     height: 80%;
     /*border: solid black 2px;*/
     border-radius: 50px;
+    font-size: 23px;
+    line-height: 28px;
 }
 #contentbox3{
     width: 95%;
     height: 90%;
     border: solid black 2px;
     border-radius: 50px;
+    font-size: 23px;
+    line-height: 28px;
     
 }
 .content1box{
@@ -242,7 +247,7 @@ body{
     justify-content: center;
 }
 .bottom{
-    background-image: url(images/bottom2.png);
+    background-image: url(images/bottom.png);
     background-repeat: no-repeat;
     background-size: 96vw 230px;
     height: 230px;
@@ -279,6 +284,7 @@ footer{
     right: 10px;
     z-index: 1;
     transition: color .15s ease-in-out, transform .3s ease-in-out;
+    font-size: 20px;
 }
 .footercontent2 a{
     display: flex;
