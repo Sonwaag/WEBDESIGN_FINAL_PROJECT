@@ -235,7 +235,7 @@ body{
     width: 300px;
     border-radius: 10px;
 }/*Avrunder kantene på bilder, trengs kanskje ikke?*/
-paddin
+
 /*SLUTT*/
 .bottomholder{
     display: flex;
@@ -263,6 +263,7 @@ footer{
 .footercontent1{
     height: 100%;
     width: 50%;
+    color: #f3f3f3;
 }
 .footercontent2{
     height: 100%;
@@ -270,12 +271,14 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
-.footercontent2 h5{
-    color: #f3f3f3;
-    margin-right: 10px;
-    
-    
+#show{
+    color: #252833;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    transition: color .15s ease-in-out, transform .3s ease-in-out;
 }
 .footercontent2 a{
     display: flex;
@@ -283,12 +286,16 @@ footer{
     align-items: center;
     height: 70px;
     width: 70px;
-    margin-right: 40px;
     border: solid 2px #6caaf0;
     border-radius: 40px;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+    background-color: #252833;
 }
-.footercontent2 a:hover .footercontent2 h5{
-    display: inline-block;
+.footercontent2 a:hover + #show{
+    color: #f3f3f3;
+    transform: translateX(-90px);
 }
 .footercontent2 img{
     height: 48px;
