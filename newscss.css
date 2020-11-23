@@ -68,7 +68,7 @@
 .linkholder2{
     display: none;
 }
-#linkbox{
+.linkbox{
    width: 0%;
    height: 7%;
    position: absolute;
@@ -83,7 +83,7 @@
    
 
 }
-.linkholder a:hover #linkbox{
+.linkholder a:hover .linkbox{
     width: 80%;
 
 }
