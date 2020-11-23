@@ -18,6 +18,23 @@
     margin-top: 50px;
     color: white;
 }
+.mailandphone{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #f3f3f3;
+    margin-bottom: 30px;
+}
+.mailandphone p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.mail a{
+    line-height: 45px;
+    font-size: 18px;
+    color: #f3f3f3;
+}
 @media screen and (max-width: 880px){
     .form{
         width: 80vw;
@@ -28,5 +45,8 @@
 @media screen and (max-width: 420px){
     .form{
         width: 100vw;
+    }
+    .mail a, .phone p{
+        font-size: 5vw;
     }
 }

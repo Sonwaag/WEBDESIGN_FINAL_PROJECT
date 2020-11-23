@@ -1,0 +1,38 @@
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 60vw;
+    background-color: #252833;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+   /* box-shadow: 8px 5px #383838;*/
+    box-shadow: 0 0 30px black;
+}
+.form h2{
+    margin-top: 50px;
+    color: white;
+}
+.form p{
+    font-size: 30px;
+    color: #f3f3f3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 880px){
+    .form{
+        width: 80vw;
+    }
+    
+    
+}
+@media screen and (max-width: 420px){
+    .form{
+        width: 100vw;
+    }
+}
