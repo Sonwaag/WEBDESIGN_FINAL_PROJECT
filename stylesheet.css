@@ -72,7 +72,7 @@ body{
 .linkholder2{
     display: none;
 }
-#linkbox{
+.linkbox{
    width: 0%;
    height: 7%;
    position: absolute;
@@ -87,7 +87,7 @@ body{
    
 
 }
-.linkholder a:hover #linkbox{
+.linkholder a:hover .linkbox{
     width: 80%;
 
 }
@@ -99,11 +99,18 @@ body{
 }
 .topping{
     background-image: url(images/top.png);
-    background-size: 1512px 230px;
+    background-size: 96vw 230px;
     background-repeat: no-repeat;
     background-position: center;
     width: 96vw;
     height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topping img{
+    height: 140px;
+
 }
 #contenttype1{
     width: 100%;
