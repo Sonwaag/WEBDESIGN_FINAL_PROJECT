@@ -87,7 +87,7 @@
     width: 80%;
 
 }
-.pixelimg{
+.linkholder2 img{
     height: 64px;
 }
 @media screen and (max-width: 880px){
@@ -120,12 +120,12 @@
         justify-content: space-around;
         align-items: center;
     }
-    #pixelimg{
+    .pixelimg{
         padding: 10px;
     }
 }
 @media screen and (max-width: 420px){
-    #pixelimg{
+    .pixelimg{
         height: 48px;
         width: 48px;
         padding: 0;
