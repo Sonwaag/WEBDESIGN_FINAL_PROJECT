@@ -286,8 +286,8 @@ a{
 }
 
 a:hover{
-    color: purple;
-    text-decoration: purple;
+    color: yellow;
+    text-decoration: yellow;
 }
 @media screen and (max-width: 880px){
     #logo{
