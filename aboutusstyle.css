@@ -7,11 +7,14 @@ body{
 
 
 
+
+
 #ourwork-gruppebilde {
     width: 50%;
     margin: 5% 25% 0% 25%;
     height: 600px;
     object-fit: cover;
+    border-radius: 25px;
 }
 
 .ourworkparagraph {
@@ -26,6 +29,8 @@ body{
 
 
 
+
+
 #title-ouremployers {
     margin-top: 10%;
     margin-bottom: 1%;
@@ -34,47 +39,53 @@ body{
 }
 
 .employer-top-1 {
-    width: 30%;
+    width: 25%;
     float: left;
-    margin: 1% 1% 1% 19%;
+    margin: 1% 1% 1% 24%;
 }
 
 .employer-top-2 {
-    width: 30%;
+    width: 25%;
     float: left;
-    margin: 1% 19% 1% 1%;
+    margin: 1% 24% 1% 1%;
 }
 
 .employer-image-top {
     width: 90%;
     margin: 0% 5%;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
+    border: 3px none #252833;
+    border-radius: 25px;
 }
 
 .employer-down-1 {
-    width: 30%;
+    width: 25%;
     float: left;
-    margin: 1% 1% 1% 3%;
+    margin: 1% 1% 1% 10.5%;
 }
 
 .employer-down-2 {
-    width: 30%;
+    width: 25%;
     float: left;
     margin: 1% 1% 1% 1%;
 }
 .employer-down-3 {
-    width: 30%;
+    width: 25%;
     float: left;
-    margin: 1% 3% 1% 1%;
+    margin: 1% 10.5% 1% 1%;
 }
 
 .employer-image-down {
     width: 90%;
     margin: 0% 5%;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
+    border: 3px none #252833;
+    border-radius: 25px;
 }
+
+
 
 
 
