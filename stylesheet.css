@@ -163,6 +163,15 @@ body{
     box-shadow: 0 0 10px black;
     border-radius: 5px;
 }
+#content0box img{
+    width: 80%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+#content3box video{
+    width: 80%;
+}
 
 /*SLUTT*/
 .bottomholder{
