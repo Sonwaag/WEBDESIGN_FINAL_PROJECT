@@ -358,9 +358,7 @@ a:hover{
 
 
 
-.jahnny {
-    display: none;
-}
+.
 @media screen and (max-width: 880px){
     #logo{
         display: none;
@@ -416,41 +414,7 @@ a:hover{
     
    
    
-    .teamPage {
-        width: 91.6%;
-    }
-    .teamPage-TopRow {
-        width: 100%;
-        display: block;
-        margin: 0px 0px 0px 0px;
-    }
-    .teamPage-TopRow div {
-        margin: 20px;
-    }
-    .image-TeamPage-TopRow {
-        width: 50%;
-        height: 80%;
-        max-height: 600px;
-        object-fit: cover;
-        border-radius: 25px;
-    }
-    .teamPage-BottomRow {
-        width: 100%;
-        display: inline;
-        align-items: center;
-    }
-    .teamPage-BottomRow div {
-        margin: 20px;
-    }
-    .image-TeamPage-BottomRow {
-        width: 50%;
-        height: 80%;
-        max-height: 600px;
-        object-fit: cover;
-        border-radius: 25px;
-        margin-bottom: 0px;
-    }
-
+    
 
 
 
