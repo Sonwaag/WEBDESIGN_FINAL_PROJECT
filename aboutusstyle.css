@@ -123,26 +123,24 @@ body{
 
 
 
-.contenttype1{
+.contenttype1 {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#contentbox-OurWork img{
+#contentbox-OurWork img {
     width: 70%;
     margin-bottom: 30px;
+    margin-top: 50px;
     box-shadow: 0 0 10px black;
     border-radius: 5px;
 }
-
-.contentbox1{
+.contentbox1 {
     width: 70%;
     height: auto;
 }
-
 .contentbox1 {
     border-radius: 10px;
     font-size: 23px; /*The font-size of paragraphs inside the boxes*/
@@ -154,20 +152,23 @@ body{
 }
 .contentbox1 h2 {
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 28px; /*The font-size of the headers of each box inside content*/
 }
-.contentbox1 p{
+.contentbox1 p {
+    margin: 0px auto;
     margin-bottom: 50px;
-    margin-left: 60px;
-    margin-right: 60px;
     line-height: 32px; /*Height between paragraph and header lines*/
+    width: 70%;
+    text-align: justify;
 }
 .contentbox1 {
     color: white;   
 }
+
+
+
 
 
 #title-ouremployers {
@@ -176,19 +177,16 @@ body{
     width: 100%;
     text-align: center;
 }
-
 .employer-top-1 {
     width: 25%;
     float: left;
     margin: 1% 1% 1% 24%;
 }
-
 .employer-top-2 {
     width: 25%;
     float: left;
     margin: 1% 24% 1% 1%;
 }
-
 .employer-image-top {
     width: 90%;
     margin: 0% 5%;
@@ -197,13 +195,11 @@ body{
     border: 3px none #252833;
     border-radius: 25px;
 }
-
 .employer-down-1 {
     width: 25%;
     float: left;
     margin: 1% 1% 1% 10.5%;
 }
-
 .employer-down-2 {
     width: 25%;
     float: left;
@@ -214,7 +210,6 @@ body{
     float: left;
     margin: 1% 10.5% 1% 1%;
 }
-
 .employer-image-down {
     width: 90%;
     margin: 0% 5%;
