@@ -159,13 +159,18 @@ Chose to use div tags instead of section tags due to familiarity */
     line-height: 32px; /*Height between paragraph and header lines*/
 }
 .contentbox1 a, .contentbox3 a{
-    color: #6caaf0;
-    text-decoration: none;
+    color: white;
 }
-.contentbox1 a:hover, .contentbox3 a:hover{
+a:hover{
+    color: lightskyblue;
+    text-decoration: lightskyblue;
+}
+/*<<<<<<< HEAD*/
+/*.contentbox1 a:hover, .contentbox3 a:hover{
     border-bottom: solid 2px #6caaf0;
-}
+}*/
 /*Altering the images and videos to scale according to the boxes they are inside*/
+/* >>>>>>> aa242702940523f35532a25c297e69f6f008db7e */
 #content2box img{
     width: 70%;
     margin-bottom: 30px;
@@ -211,7 +216,7 @@ footer{
 }
 .footercontent1{
     height: 100%;
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -219,7 +224,7 @@ footer{
 }
 .footercontent2{
     height: 100%;
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -227,13 +232,18 @@ footer{
 }
 .footercontent3{
     height: 100%;
-    width: 40%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
     align-items: flex-end;
 }
 .footercontent3 h1{
     font-size: 12px;
+    color: #f3f3f3;
+}
+.footercontent3 h2{
+    font-size: 16px;
     color: #f3f3f3;
 }
 #show{
@@ -304,11 +314,7 @@ footer{
 
 /*Gjelder generelt for alle hyperkoblinger/ linker*/
 a{
-    color: lightgray;
-}
-a:hover{
-    color: lightskyblue;
-    text-decoration: lightskyblue;
+    color: white;
 }
 
 @media screen and (max-width: 880px){
@@ -371,6 +377,10 @@ a:hover{
     }
     .footercontent3{
         width: 60%;
+        justify-content: center;
+    }
+    .foot1, .foot3{
+        display: none;
     }
     .contentbox1, .contentbox3{
         width: 90vw;
