@@ -123,22 +123,51 @@ body{
 
 
 
-.Our-Work-Section {
+.contenttype1{
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#ourwork-gruppebilde {
-    margin-top: 5%;
-    width: 60%;
-    height: 700px;
-    object-fit: cover;
-    border-radius: 25px;
+#contentbox-OurWork img{
+    width: 70%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
 }
 
+.contentbox1{
+    width: 70%;
+    height: auto;
+}
 
-
+.contentbox1 {
+    border-radius: 10px;
+    font-size: 23px; /*The font-size of paragraphs inside the boxes*/
+    background-color: #252833;
+    color: #f3f3f3;
+    box-shadow: 0 0 15px black;
+    margin-top: 100px;
+    text-align: center;
+}
+.contentbox1 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px; /*The font-size of the headers of each box inside content*/
+}
+.contentbox1 p{
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 32px; /*Height between paragraph and header lines*/
+}
+.contentbox1 {
+    color: white;   
+}
 
 
 #title-ouremployers {
