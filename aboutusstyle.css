@@ -171,22 +171,55 @@ body{
 
 
 
-
-
-.teamPage-TopRow {
+.teamPage {
+    background-color: #252833;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+.title-TeamPage {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-size: 18px;
+    margin-top: 100px;
+}
+.title-TeamPage h1 {
+    margin-top: 40px;
+}
+.teamPage-TopRow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 25px 0px;
+}
+.teamPage-TopRow div {
+    margin: 20px;
+}
+.image-TeamPage-TopRow {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 .teamPage-BottomRow {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.teamPage-BottomRow div {
+    margin: 20px;
+}
+.image-TeamPage-BottomRow {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
 
 
 
