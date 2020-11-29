@@ -151,12 +151,15 @@ body{
     line-height: 32px; /*Størrelse på mellomrom mellom linjene, paragraf*/
 }
 .contentbox1 a, .contentbox3 a{
-    color: #6caaf0;
-    text-decoration: none;
+    color: white;
 }
-.contentbox1 a:hover, .contentbox3 a:hover{
+a:hover{
+    color: lightskyblue;
+    text-decoration: lightskyblue;
+}
+/*.contentbox1 a:hover, .contentbox3 a:hover{
     border-bottom: solid 2px #6caaf0;
-}
+}*/
 #content2box img{
     width: 70%;
     margin-bottom: 30px;
@@ -292,11 +295,7 @@ footer{
 
 /*Gjelder generelt for alle hyperkoblinger/ linker*/
 a{
-    color: lightgray;
-}
-a:hover{
-    color: lightskyblue;
-    text-decoration: lightskyblue;
+    color: white;
 }
 
 @media screen and (max-width: 880px){
