@@ -132,7 +132,7 @@ body{
 }
 #contentbox-OurWork img {
     width: 70%;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
     margin-bottom: 30px;
     margin-top: 100px;
@@ -200,8 +200,8 @@ body{
     margin: 20px;
 }
 .image-TeamPage-TopRow {
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    height: 25vw;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -215,8 +215,8 @@ body{
     margin: 20px;
 }
 .image-TeamPage-BottomRow {
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    height: 25vw;
     object-fit: cover;
     border-radius: 25px;
     margin-bottom: 50px;
@@ -351,4 +351,143 @@ footer{
 a:hover{
     color: lightskyblue;
     text-decoration: lightskyblue;
+}
+
+
+
+
+
+@media screen and (max-width: 880px){
+    #logo{
+        display: none;
+    }
+    #logo1{
+        display: inline-block;
+        height: 60px;
+    }
+    .header1{
+        width: 20%;
+    }
+    .header2{
+        width: 80%;
+    }
+    .logoholder a{
+        margin-left: 15px;
+    }
+    .headercontainer{
+        margin-top: 5px;
+    }
+    .linkholder{
+        display: none;
+    }
+    .linkholder2{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pixelimg{
+        padding: 10px;
+    }
+    .bottomholder{
+        display: none;
+    }
+    .footercontainer{
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    #footerlink11, #footerlink12, #show, #show1{
+        display: none;
+    }
+    #footerlink21, #footerlink22{
+        display: inline-block;
+        font-size: 20px;
+        color: #f3f3f3;
+        text-align: center;
+    }
+    #footerlink21{
+        margin-left: 20px;
+    }
+    #footerlink22{
+        margin-right: 20px;
+    }
+    .footercontent1, .footercontent2{
+        width: 20%;
+    }
+    .footercontent3{
+        width: 60%;
+        justify-content: center;
+    }
+    .foot1, .foot3{
+        display: none;
+    }
+    .contentbox1, .contentbox3{
+        width: 90vw;
+        margin-top: 40px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .pixelimg{
+        height: 48px;
+        width: 48px;
+        padding: 0px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        width: 100%;
+    }
+    .linkholder2{
+        justify-content: space-around;
+    }
+    .headercontainer{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+    }
+    .topping{
+        border-radius: 0;
+        margin-top: 0;
+        width: 100vw;
+    }
+    #footerlink21, #footerlink22{
+        font-size: 14px;
+    }
+    .footercontent3 h1{
+        font-size: 8px;
+        text-align: center;
+    }
+    .footercontainer{
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .contentbox1, .contentbox3{
+        margin-top: 20px;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .contentbox1 p, .contentbox3 p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .toppingholder{
+        display: none;
+    }
+}
+@media screen and (max-width: 240px){
+    .contentbox1 h2, .contentbox3 h2{
+        font-size: 17px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .contentbox1 p, .contentbox3 p{
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 }
