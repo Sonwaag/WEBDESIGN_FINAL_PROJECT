@@ -1,4 +1,6 @@
+/*Styles for the ordinary navbar which should be implemented in most of the html-documents*/
 *{
+    color: #f3f3f3;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }

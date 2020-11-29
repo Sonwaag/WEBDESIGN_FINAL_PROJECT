@@ -1,9 +1,10 @@
 body{
+    color: #f3f3f3;
     font-size: 0;
-    margin: 0; /*Gjør slik at det ikke blir noen kanter på nettsiden*/
-    font-family: Arial, Helvetica, sans-serif; /*Skrift funnet https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
+    margin: 0; /*Removes all margin and whitespace around everything*/
+    font-family: Arial, Helvetica, sans-serif; /*Font found https://www.w3schools.com/cssref/css_websafe_fonts.asp yet integrated in styles*/
 }
-
+/*CSS for navbar / header */
 #main-header{
     display: flex;
     justify-content: center;
@@ -51,8 +52,9 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
+/*The links for computerscreen view*/
 .linkholder a{
-    text-decoration: none !important;
+    text-decoration: none !important; /*Makes the attribute final*/
     text-align: center;
     color: #f3f3f3 !important;
     border: solid #6caaf0 2.5px; 
@@ -85,10 +87,12 @@ body{
    
 
 }
+/*Gives the underline below links*/
 .linkholder a:hover .linkbox{
     width: 80%;
 
 }
+/*The images for the navbar on smaller screens*/
 .pixelimg{
     height: 64px;
 }
@@ -98,6 +102,7 @@ body{
     width: 100%;
     
 }
+/*The image underneath the navbar*/
 .topping{
     background-image: url(images/top.png);
     background-size: 96vw 230px;
@@ -109,10 +114,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+/*The logo ontop the image underneath the navbar*/
 .topping img{
     height: 140px;
 
 }
+/*Content start, defining the width of each section and how the boxes will be displayed in the center of the sections.
+Chose to use div tags instead of section tags due to familiarity */
 .contenttype1{
     width: 100%;
     height: auto;
@@ -130,7 +138,7 @@ body{
 }
 .contentbox1, .contentbox3{
     border-radius: 10px;
-    font-size: 23px; /*Størrelse på teksten i tekstboksene, paragraf*/
+    font-size: 23px; /*The font-size of paragraphs inside the boxes*/
     background-color: #252833;
     color: #f3f3f3;
     box-shadow: 0 0 15px black;
@@ -142,13 +150,13 @@ body{
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 28px; /*Størrelse på teksten i tekstboksene, heading*/
+    font-size: 28px; /*The font-size of the headers of each box inside content*/
 }
 .contentbox1 p, .contentbox3 p{
     margin-bottom: 50px;
     margin-left: 60px;
     margin-right: 60px;
-    line-height: 32px; /*Størrelse på mellomrom mellom linjene, paragraf*/
+    line-height: 32px; /*Height between paragraph and header lines*/
 }
 .contentbox1 a, .contentbox3 a{
     color: #6caaf0;
@@ -157,6 +165,7 @@ body{
 .contentbox1 a:hover, .contentbox3 a:hover{
     border-bottom: solid 2px #6caaf0;
 }
+/*Altering the images and videos to scale according to the boxes they are inside*/
 #content2box img{
     width: 70%;
     margin-bottom: 30px;
@@ -173,7 +182,8 @@ body{
     width: 80%;
 }
 
-/*SLUTT*/
+/*End of content*/
+/*The image above the footer*/
 .bottomholder{
     display: flex;
     justify-content: center;
@@ -186,6 +196,7 @@ body{
     width: 96vw;
     margin-top: 80px;
 }
+/*The flexible footer*/
 footer{
     display: flex;
     justify-content: center;
@@ -273,6 +284,7 @@ footer{
     z-index: 2;
     background-color: #252833;
 }
+/* Shows the text when you hover on the links in the booter in computerscreen view */
 #footerlink11:hover + #show1{
     color: #f3f3f3;
     transform: translateX(90px);
