@@ -345,3 +345,12 @@ footer{
 #footerlink21, #footerlink22{
     display: none;
 }
+
+
+.contentbox1 a{
+    color: white;
+}
+a:hover{
+    color: lightskyblue;
+    text-decoration: lightskyblue;
+}
