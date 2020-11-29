@@ -211,7 +211,7 @@ footer{
 }
 .footercontent1{
     height: 100%;
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -219,7 +219,7 @@ footer{
 }
 .footercontent2{
     height: 100%;
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -227,13 +227,18 @@ footer{
 }
 .footercontent3{
     height: 100%;
-    width: 40%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
     align-items: flex-end;
 }
 .footercontent3 h1{
     font-size: 12px;
+    color: #f3f3f3;
+}
+.footercontent3 h2{
+    font-size: 16px;
     color: #f3f3f3;
 }
 #show{
@@ -371,6 +376,10 @@ a:hover{
     }
     .footercontent3{
         width: 60%;
+        justify-content: center;
+    }
+    .foot1, .foot3{
+        display: none;
     }
     .contentbox1, .contentbox3{
         width: 90vw;

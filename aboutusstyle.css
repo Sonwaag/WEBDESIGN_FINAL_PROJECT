@@ -408,7 +408,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 880px){
     #ourwork-gruppebilde {
         height: 400px;
     }
@@ -444,6 +444,70 @@ footer{
     .employer-down-3 {
         width: 70%;
         margin: 5% 15% 5% 15%;
+    }
+    #logo{
+        display: none;
+    }
+    #logo1{
+        display: inline-block;
+        height: 60px;
+    }
+    .header1{
+        width: 20%;
+    }
+    .header2{
+        width: 80%;
+    }
+    .logoholder a{
+        margin-left: 15px;
+    }
+    .headercontainer{
+        margin-top: 5px;
+    }
+    .linkholder{
+        display: none;
+    }
+    .linkholder2{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pixelimg{
+        padding: 10px;
+    }
+    .bottomholder{
+        display: none;
+    }
+    .footercontainer{
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    #footerlink11, #footerlink12, #show, #show1{
+        display: none;
+    }
+    #footerlink21, #footerlink22{
+        display: inline-block;
+        font-size: 20px;
+        color: #f3f3f3;
+        text-align: center;
+    }
+    #footerlink21{
+        margin-left: 20px;
+    }
+    #footerlink22{
+        margin-right: 20px;
+    }
+    .footercontent1, .footercontent2{
+        width: 20%;
+    }
+    .footercontent3{
+        width: 60%;
+        justify-content: center;
+    }
+    .foot1, .foot3{
+        display: none;
     }
 }
 
@@ -491,5 +555,44 @@ footer{
 
     .employer-image-down {
         height: 400px;
+    }
+    .pixelimg{
+        height: 48px;
+        width: 48px;
+        padding: 0px;
+    }
+    .header1{
+        display: none;
+    }
+    .header2{
+        width: 100%;
+    }
+    .linkholder2{
+        justify-content: space-around;
+    }
+    .headercontainer{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+    }
+    .topping{
+        border-radius: 0;
+        margin-top: 0;
+        width: 100vw;
+    }
+    #footerlink21, #footerlink22{
+        font-size: 14px;
+    }
+    .footercontent3 h1{
+        font-size: 8px;
+        text-align: center;
+    }
+    .footercontainer{
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .toppingholder{
+        display: none;
     }
 }
