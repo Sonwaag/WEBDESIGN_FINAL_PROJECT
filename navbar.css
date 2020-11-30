@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .headercontainer{
-    border-radius: 30px;
+    border-radius: 20px 20px 0 0;
     width: 96vw;
     margin-top: 20px;
     height: 100px;
@@ -51,8 +51,9 @@
     justify-content: flex-end;
     align-items: center;
 }
+/*The links for computerscreen view*/
 .linkholder a{
-    text-decoration: none !important;
+    text-decoration: none !important; /*Makes the attribute final*/
     text-align: center;
     color: #f3f3f3 !important;
     border: solid #6caaf0 2.5px; 
@@ -85,11 +86,13 @@
    
 
 }
+/*Gives the underline below links*/
 .linkholder a:hover .linkbox{
     width: 80%;
 
 }
-.linkholder2 img{
+/*The images for the navbar on smaller screens*/
+.pixelimg{
     height: 64px;
 }
 @media screen and (max-width: 880px){
