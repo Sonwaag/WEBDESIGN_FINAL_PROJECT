@@ -138,6 +138,7 @@ body{
     margin-top: 100px;
     box-shadow: 0 0 10px black;
     border-radius: 5px;
+    image-rendering: crisp-edges;
 }
 .contentbox1 {
     width: 70%;
@@ -455,7 +456,7 @@ a:hover{
         margin-top: 40px;
     }
     
-}
+}   
 @media screen and (max-width: 420px){
     .pixelimg{
         height: 48px;
