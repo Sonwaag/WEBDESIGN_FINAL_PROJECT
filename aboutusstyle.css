@@ -206,6 +206,10 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
+figcaption{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /*The image above the footer*/
 .bottomholder{
@@ -345,6 +349,9 @@ a:hover{
 
 
 @media screen and (max-width: 880px){
+    figcaption{
+        font-size: 80%;
+    }
     #logo{
         display: none;
     }
@@ -490,7 +497,7 @@ a:hover{
     }
     .teamPage-BottomRow img, .teamPage-TopRow img{
         width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     .contentbox1 p, .contentbox3 p{
         margin-left: 20px;
@@ -498,6 +505,9 @@ a:hover{
     }
     .toppingholder{
         display: none;
+    }
+    figcaption{
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 240px){
