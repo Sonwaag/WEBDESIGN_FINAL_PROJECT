@@ -4,6 +4,9 @@ body{
     margin: 0; /*Removes all margin and whitespace around everything*/
     font-family: Arial, Helvetica, sans-serif; /*Font found https://www.w3schools.com/cssref/css_websafe_fonts.asp yet integrated in styles*/
 }
+.logoholder a{
+    color: white !important;
+}
 /*CSS for navbar / header */
 #main-header{
     display: flex;
